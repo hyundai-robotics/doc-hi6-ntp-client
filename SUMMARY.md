@@ -9,4 +9,5 @@
 * [3. NTP 시간 동기화 실행](3-use-ntp-client/README.md)
     * [3.1 설정](3-use-ntp-client/1-setting.md)
     * [3.2 실행 결과](3-use-ntp-client/2-execution.md)
-* [4. 에러]()
+
+    
