@@ -60,7 +60,7 @@
     <img src="../_assets/n4.png" alt/>
    </td>
    <td style="text-align:left">
-    NTP 시간 동기화를 수행합니다. <b>최초 TP 부팅 시</b> 또는 <b>설정값 변경 시</b>, 주기적 갱신을 수행하려면 '지금 실행' 버튼을 터치하십시오.
+    NTP 시간 동기화를 수행합니다.
    </td>
   </tr>
   <tr>
@@ -68,7 +68,7 @@
     <img src="../_assets/n5.png" alt/>
    </td>
    <td style="text-align:left">
-    설정을 저장합니다. 변경된 설정값을 반영하기 위해서는 '지금 실행' 버튼을 터치하십시오.
+    설정을 저장합니다. NTP 시간 동기화에 변경된 설정값을 적용하기 위해서는 '지금 실행' 버튼을 터치하십시오.
    </td>
   </tr>
  </tbody>
