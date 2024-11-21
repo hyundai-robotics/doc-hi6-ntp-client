@@ -1,4 +1,4 @@
-# 2. NTP 서버 설정
+# 2. NTP server setting
 
-Hi6 로봇제어기에 연결하는 호스트 PC를 NTP 서버로 사용하는 방법을 설명합니다.
+Describes how to use the host PC that connects to the Hi6 robot controller as an NTP server.
 

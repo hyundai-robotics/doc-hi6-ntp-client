@@ -1,4 +1,4 @@
-# 1.2 요구사항
+# 1.2 Requirement
 
-NTP 시간 동기화 기능을 사용하기 위해서는 Hi6 로봇제어기와 LAN으로 직접 연결 가능한 NTP 서버가 필요합니다.
+To use the NTP time synchronization feature, you need an NTP server that can be directly connected to the Hi6 robot controller by LAN.
 

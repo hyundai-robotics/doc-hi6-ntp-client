@@ -1,33 +1,33 @@
-# 3.2 실행
+# 3.2 Execution result
 
-'주기적 갱신' 또는'지금 실행' 버튼을 터치해 NTP 시간 동기화를 수행합니다.
+Perform a 'Periodic Update' or touch the 'Execute now' button to execute NTP time synchronization.
 
-NTP 포트 번호로 123번이 아닌 다른 포트 번호를 사용하는 경우, 아래 그림과 같은 메시지 박스가 나타납니다. 해당 포트로 NTP 시간 동기화를 수행하려면 '확인'을 터치하시고, 그렇지 않다면 '취소'를 터치하십시오.
+If you use a port number other than 123 as the NTP port number, a message box as shown below will appear. Touch 'Enter' to execute NTP time synchronization to that port, otherwise touch 'Cancel'.
 
 <p align="center">
  <img src="../_assets/ntp-change-port-no.png"></img>
- <em><p align="center">그림 3.3 NTP 포트 번호로 123번 이외의 값을 사용</p></em>
+ <em><p align="center">Figure 3.3 Use a value other than 123 as the NTP port number</p></em>
 </p>
 
-NTP 시간 동기화 수행 결과에 따라 아래 그림과 같은 메시지 박스가 나타납니다.
+Depending on the results of executing NTP time synchronization, a message box as shown below will appear.
 
 <p align="center">
  <img src="../_assets/ntp-complete.png"></img>
- <em><p align="center">그림 3.4 NTP 시간 동기화 수행 결과(성공)</p></em>
+ <em><p align="center">Figure 3.4 Results of NTP Time Synchronization(Success)</p></em>
 </p>
 
-NTP 시간 동기화가 성공적으로 수행되었습니다.
+NTP time synchronization was executed successfully.
 
 <p align="center">
  <img src="../_assets/ntp-fail.png"></img>
- <em><p align="center">그림 3.5 NTP 시간 동기화 수행 결과(실패)</p></em>
+ <em><p align="center">Figure 3.5 Results of NTP Time Synchronization(Fail)</p></em>
 </p>
 
-NTP 시간 동기화에 실패하였습니다.
+NTP time synchronization failed.
 
 {% hint style="info" %}
-* NTP 서버의 IP 주소(IPv4)를 정확하게 입력했는지 확인하십시오.
-* NTP 포트 번호로 다른 곳에서 사용 중인 포트 번호를 입력하지 않도록 주의하십시오. NTP 표준 포트인 123번을 사용하는 것을 권장합니다.
-* 주기적인 시간 동기화를 수행하고 싶지 않은 경우, '갱신 간격'으로 0을 입력하십시오.
+* Make sure you entered the IP address (IPv4) of the NTP server correctly.
+* Be careful not to enter a port number that is in use elsewhere as the NTP port number. We recommend using NTP standard port 123.
+* If you do not want to execute periodic time synchronization, enter 0 for 'Update interval'.
 {% endhint %}
 
