@@ -16,7 +16,7 @@ Hyundai Robotics reserves the right to modify this document without prior notifi
 **Copyright ⓒ 2020 by Hyundai Robotics**
 {% endhint %}
 
-# 1. 개요
+# 1. Overview
 
 {% hint style="info" %}
 This feature is supported in V60.29-04 and later versions.
@@ -43,7 +43,7 @@ To use the NTP time synchronization feature, you need an NTP server that can be 
 
 Describes how to use the host PC that connects to the Hi6 robot controller as an NTP server.
 
-# 2.1 윈도우 PC를 NTP 서버로 설정
+# 2.1 Set Windows PC as an NTP server
 
 To use a Windows PC as an NTP server, you must follow the steps below.
 

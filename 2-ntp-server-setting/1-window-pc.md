@@ -1,4 +1,4 @@
-# 2.1 윈도우 PC를 NTP 서버로 설정
+# 2.1 Set Windows PC as an NTP server
 
 To use a Windows PC as an NTP server, you must follow the steps below.
 
