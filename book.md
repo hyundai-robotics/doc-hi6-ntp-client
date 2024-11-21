@@ -12,7 +12,13 @@
 
 
 **Copyright ⓒ 2024 by Hyundai Robotics**
-{% endhint %}# 1. 개요# 1.1 NTP 시간 동기화란?
+{% endhint %}# 1. 개요
+
+{% hint style="info" %}
+이 기능은 V60.29-04 및 이후 버전부터 지원됩니다.
+{% endhint %}
+
+# 1.1 NTP 시간 동기화란?
 
 NTP(Network Time Protocol)는 네트워크의 모든 디바이스에서 시간을 동기화하는 데 사용되는 프로토콜입니다. 기본적으로 UDP의 123번 포트를 사용합니다.
 
@@ -162,7 +168,7 @@ Hi6 로봇제어기에 연결하는 호스트 PC를 NTP 서버로 사용하는 �
     <img src="../_assets/n4.png" alt/>
    </td>
    <td style="text-align:left">
-    NTP 시간 동기화를 수행합니다. <b>최초 TP 부팅 시</b> 또는 <b>설정값 변경 시</b>, 주기적 갱신을 수행하려면 '지금 실행' 버튼을 터치하십시오.
+    NTP 시간 동기화를 수행합니다.
    </td>
   </tr>
   <tr>
@@ -170,7 +176,7 @@ Hi6 로봇제어기에 연결하는 호스트 PC를 NTP 서버로 사용하는 �
     <img src="../_assets/n5.png" alt/>
    </td>
    <td style="text-align:left">
-    설정을 저장합니다. 변경된 설정값을 반영하기 위해서는 '지금 실행' 버튼을 터치하십시오.
+    설정을 저장합니다. NTP 시간 동기화에 변경된 설정값을 적용하기 위해서는 '지금 실행' 버튼을 터치하십시오.
    </td>
   </tr>
  </tbody>
