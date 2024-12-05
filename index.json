@@ -36,12 +36,12 @@
 	},
 	{
 		"link": "3-use-ntp-client/1-setting.md",
-		"char_ofs": 4703,
-		"byte_ofs": 4822
+		"char_ofs": 4686,
+		"byte_ofs": 4805
 	},
 	{
 		"link": "3-use-ntp-client/2-execution.md",
-		"char_ofs": 7152,
-		"byte_ofs": 7347
+		"char_ofs": 7135,
+		"byte_ofs": 7330
 	}
 ]
