@@ -9,4 +9,5 @@ NTP(Network Time Protocol)는 네트워크의 모든 디바이스에서 시간�
 
 ---
 
-NTP의 정의는 RFC 5905: Network Time Protocol Version 4: Protocol and Algorithm Specification에서 확인할 수 있습니다.
+NTP의 정의는 [RFC 5905: Network Time Protocol Version 4: Protocol and Algorithm Specification](https://datatracker.ietf.org/doc/html/rfc5905)에서 확인할 수 있습니다.
+
