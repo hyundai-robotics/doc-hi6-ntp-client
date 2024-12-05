@@ -13,6 +13,6 @@ HD Hyundai Robotics reserves the right to modify this document without prior not
 
 
 
-**Copyright ⓒ 2020 by HD Hyundai Robotics**
+**Copyright ⓒ 2024 by HD Hyundai Robotics**
 {% endhint %}
 

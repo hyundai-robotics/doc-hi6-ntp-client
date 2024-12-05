@@ -31,17 +31,17 @@
 	},
 	{
 		"link": "3-use-ntp-client/README.md",
-		"char_ofs": 4585,
-		"byte_ofs": 4699
+		"char_ofs": 4559,
+		"byte_ofs": 4674
 	},
 	{
 		"link": "3-use-ntp-client/1-setting.md",
-		"char_ofs": 4729,
-		"byte_ofs": 4847
+		"char_ofs": 4703,
+		"byte_ofs": 4822
 	},
 	{
 		"link": "3-use-ntp-client/2-execution.md",
-		"char_ofs": 7178,
-		"byte_ofs": 7372
+		"char_ofs": 7152,
+		"byte_ofs": 7347
 	}
 ]
