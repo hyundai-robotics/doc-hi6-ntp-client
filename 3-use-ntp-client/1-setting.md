@@ -51,7 +51,7 @@
      <li><b>NTP server IP Address : </b>Enter the IP address(IPv4) of the NTP server.</li>
      <li><b>NTP port number : </b>Enter the port number to be used by NTP. NTP uses port 123 as the standard port.</li>
      <li><b>Timezone offset : </b>Enter the time zone offset for the current location.</li>
-     <li><b>Update interval : </b>Enter the update interval in hours for periodic time synchronization.</li>
+     <li><b>Update interval : </b>Enter the update interval in hours for periodic time synchronization. If you do not want to perform periodic time synchronization, enter 0.</li>
      <li><b>Remaining time : </b>Shows the time remaining in seconds until the next time synchronization.</li>
    </td>
   </tr>

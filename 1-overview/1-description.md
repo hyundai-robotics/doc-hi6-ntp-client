@@ -9,5 +9,5 @@ NTP(Network Time Protocol) is a protocol used to synchronize time across all dev
 
 ---
 
-The definition of NTP can be found in RFC 5905: Network Time Protocol Version 4: Protocol and Algorithm Specification.
+The definition of NTP can be found in [RFC 5905: Network Time Protocol Version 4: Protocol and Algorithm Specification](https://datatracker.ietf.org/doc/html/rfc5905).
 

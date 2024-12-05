@@ -19,7 +19,7 @@ Hyundai Robotics reserves the right to modify this document without prior notifi
 # 1. Overview
 
 {% hint style="info" %}
-This feature is supported in V60.29-04 and later versions.
+This feature is supported in V60.30-00 and later versions.
 {% endhint %}
 
 # 1.1 What is NTP time synchronization?
@@ -33,11 +33,13 @@ NTP(Network Time Protocol) is a protocol used to synchronize time across all dev
 
 ---
 
-The definition of NTP can be found in RFC 5905: Network Time Protocol Version 4: Protocol and Algorithm Specification.
+The definition of NTP can be found in [RFC 5905: Network Time Protocol Version 4: Protocol and Algorithm Specification](https://datatracker.ietf.org/doc/html/rfc5905).
 
 # 1.2 Requirement
 
-To use the NTP time synchronization feature, you need an NTP server that can be directly connected to the Hi6 robot controller by LAN.
+To use the NTP client time synchronization feature, you need an NTP server that can be directly connected to the Hi6 robot controller by LAN.
+
+For information on how to use your host PC as an NTP server, see '[2.NTP server setting](../2-ntp-server-setting/README.md)' in the next chapter.
 
 # 2. NTP server setting
 
@@ -45,7 +47,7 @@ Describes how to use the host PC that connects to the Hi6 robot controller as an
 
 # 2.1 Set Windows PC as an NTP server
 
-To use a Windows PC as an NTP server, you must follow the steps below.
+To use a Windows PC(Windows 10) as an NTP server, you must follow the steps below.
 
 1. Enable NTP server feature in Windows.
     * Use w32time(Windows Time Service)
@@ -165,7 +167,7 @@ Describes how to set up NTP time synchronization in the Teach Pendant and the re
      <li><b>NTP server IP Address : </b>Enter the IP address(IPv4) of the NTP server.</li>
      <li><b>NTP port number : </b>Enter the port number to be used by NTP. NTP uses port 123 as the standard port.</li>
      <li><b>Timezone offset : </b>Enter the time zone offset for the current location.</li>
-     <li><b>Update interval : </b>Enter the update interval in hours for periodic time synchronization.</li>
+     <li><b>Update interval : </b>Enter the update interval in hours for periodic time synchronization. If you do not want to perform periodic time synchronization, enter 0.</li>
      <li><b>Remaining time : </b>Shows the time remaining in seconds until the next time synchronization.</li>
    </td>
   </tr>
@@ -188,11 +190,11 @@ Describes how to set up NTP time synchronization in the Teach Pendant and the re
  </tbody>
 </table>
 
-# 3.2 Execution result
+# 3.2 Execute now
 
-Perform a 'Periodic Update' or touch the 'Execute now' button to execute NTP time synchronization.
+Touch the 'Execute now' button to perform NTP time synchronization.
 
-If you use a port number other than 123 as the NTP port number, a message box as shown below will appear. Touch 'Enter' to execute NTP time synchronization to that port, otherwise touch 'Cancel'.
+If you use a port number other than 123 as the NTP port number, a message box as shown below will appear. Touch 'Enter' to perform NTP time synchronization to that port, otherwise touch 'Cancel'.
 
 <p align="center">
  <img src="../_assets/ntp-change-port-no.png"></img>
@@ -206,7 +208,7 @@ Depending on the results of executing NTP time synchronization, a message box as
  <em><p align="center">Figure 3.4 Results of NTP Time Synchronization(Success)</p></em>
 </p>
 
-NTP time synchronization was executed successfully.
+NTP time synchronization was performed successfully.
 
 <p align="center">
  <img src="../_assets/ntp-fail.png"></img>
@@ -216,8 +218,6 @@ NTP time synchronization was executed successfully.
 NTP time synchronization failed.
 
 {% hint style="info" %}
-* Make sure you entered the IP address (IPv4) of the NTP server correctly.
 * Be careful not to enter a port number that is in use elsewhere as the NTP port number. We recommend using NTP standard port 123.
-* If you do not want to execute periodic time synchronization, enter 0 for 'Update interval'.
 {% endhint %}
 

@@ -1,6 +1,6 @@
 # 2.1 Set Windows PC as an NTP server
 
-To use a Windows PC as an NTP server, you must follow the steps below.
+To use a Windows PC(Windows 10) as an NTP server, you must follow the steps below.
 
 1. Enable NTP server feature in Windows.
     * Use w32time(Windows Time Service)
