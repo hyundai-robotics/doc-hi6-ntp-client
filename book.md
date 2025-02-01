@@ -37,7 +37,7 @@ NTP의 정의는 [RFC 5905: Network Time Protocol Version 4: Protocol and Algori
 
 NTP 클라이언트 시간 동기화 기능을 사용하기 위해서는 Hi6 로봇제어기와 LAN으로 직접 연결 가능한 NTP 서버가 필요합니다.
 
-호스트 PC를 NTP 서버로 사용하기 위한 방법은 '2. NTP 서버 설정'을 참고하십시오.
+호스트 PC를 NTP 서버로 사용하기 위한 방법은 다음 장의 '[2. NTP 서버 설정](../2-ntp-server-setting/README.md)'을 참고하십시오.
 
 # 2. NTP 서버 설정
 
@@ -45,7 +45,7 @@ Hi6 로봇제어기에 연결하는 호스트 PC를 NTP 서버로 사용하는 �
 
 # 2.1 윈도우 PC를 NTP 서버로 설정
 
-윈도우(Windows 10) PC를 NTP 서버로 사용하기 위해서는 아래의 단계를 수행해야 합니다.
+윈도우 PC(Windows 10)를 NTP 서버로 사용하기 위해서는 아래의 단계를 수행해야 합니다.
 
 1. Windows에서 NTP 서버 기능 활성화
     * w32time(Windows Time Service) 사용

@@ -21,27 +21,27 @@
 	},
 	{
 		"link": "2-ntp-server-setting/README.md",
-		"char_ofs": 911,
-		"byte_ofs": 1554
+		"char_ofs": 954,
+		"byte_ofs": 1605
 	},
 	{
 		"link": "2-ntp-server-setting/1-window-pc.md",
-		"char_ofs": 976,
-		"byte_ofs": 1689
+		"char_ofs": 1019,
+		"byte_ofs": 1740
 	},
 	{
 		"link": "3-use-ntp-client/README.md",
-		"char_ofs": 3419,
-		"byte_ofs": 4908
+		"char_ofs": 3462,
+		"byte_ofs": 4959
 	},
 	{
 		"link": "3-use-ntp-client/1-setting.md",
-		"char_ofs": 3485,
-		"byte_ofs": 5052
+		"char_ofs": 3528,
+		"byte_ofs": 5103
 	},
 	{
 		"link": "3-use-ntp-client/2-execution.md",
-		"char_ofs": 5383,
-		"byte_ofs": 7822
+		"char_ofs": 5426,
+		"byte_ofs": 7873
 	}
 ]
